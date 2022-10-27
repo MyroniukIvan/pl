@@ -4,7 +4,7 @@ import '../../style/button.scss';
 
 export const AboutUs = () => {
     return (<>
-            <div className={"aboutUs"}>
+            <div className={"aboutUs"} id={'aboutUs'}>
                 <div className="aboutUs__border"/>
                     <div className="aboutUs__items">
                         <div className="aboutUs__items-title">

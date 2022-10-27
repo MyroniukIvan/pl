@@ -20,17 +20,19 @@
       height: 600px;
     }
 
-    &-above {
+    &-about {
+      margin: 0;
+      position: relative;
       background: #bef5b8;
       opacity: 30%;
-      margin: 0;
       padding: 50px;
       font-family: 'Roboto', serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 29px;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 18px;
+      line-height: 25px;
       color: #000000;
+      text-align: center;
     }
   }
 
@@ -43,7 +45,9 @@
     font-size: 32px;
     line-height: 35px;
     color: #177165;
+
     &-text {
+      margin-top: 50px;
       padding: 25px;
       text-align: center;
       font-family: 'Roboto', serif;
@@ -53,6 +57,7 @@
       line-height: 26px;
       color: #777777;
     }
+
     &-block {
       position: relative;
       display: flex;

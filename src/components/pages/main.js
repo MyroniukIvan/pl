@@ -5,6 +5,7 @@ import {Container} from "@mui/material";
 import './main.scss'
 import ContactUs from "../ContactUs";
 import Description from "../Description";
+import Additional from "../Additional";
 
 const Main = () => {
     return (
@@ -14,6 +15,7 @@ const Main = () => {
             </Container>
             <Description/>
             <AboutUs/>
+            <Additional/>
             <ContactUs/>
         </div>
     );

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+section {
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text__box {
+    margin: 20px;
+    width: 350px;
+    &-text {
+      align-items: center;
+      padding: 20px;
+      text-align: left;
+      color: #ffffff;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  }
+
+  &:nth-child(2) {
+    color: #ffffff;
+  }
+
+  &:nth-child(4) {
+    color: #000000;
+    background: #177165;
+    opacity: 95%;
+  }
+  .call {
+    font-size: 17px;
+    border: wheat 1px solid ;
+    border-radius: 50px;
+    text-align: center;
+    background: #177165;
+    opacity: 100%;
+    }
+
+
+  .reveal {
+    position: relative;
+    transform: translateY(175px);
+    transition: 1s all ease;
+    opacity: 0;
+
+    &.active {
+      opacity: 1;
+      background: none;
+      transform: translateY(0);
+    }
+  }
+
+
+  .container {
+    height: 350px;
+    &-subtitle {
+      text-align: left;
+      &:before {
+        content: 'Call To Action';
+        position: relative;
+        border-top: white 1px solid;
+      }
+    }
+  }
+}
+
+.flex__container {
+  display: flex;
+  gap: 5px;
+}
+
+
+@media (max-width: 900px) {
+  section h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .text__container {
+    flex-direction: column;
+  }
+}
+

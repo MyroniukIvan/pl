@@ -9,7 +9,7 @@ export const AppHeader = () => {
                  KREDOPOL
                 </div>
             <a href={'/'} className={"app__header-item"}>Home</a>
-            <a href={'/'} className={"app__header-item"}>About us</a>
+            <a href={'#aboutUs'} className={"app__header-item"}>About us</a>
             <a href={'/'} className={"app__header-item"}>Offers</a>
             <a href={'/'} className={"app__header-item"}>Contact us</a>
             <a href={'/'} className={"app__header-item"}>Call us <b/> </a>

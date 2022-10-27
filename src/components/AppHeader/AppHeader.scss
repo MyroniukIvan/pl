@@ -24,6 +24,10 @@
       align-items: center;
       color: wheat;
       position: relative;
+      &:hover {
+        border-bottom: 4px solid #FFFFFF;
+        transition: .1s ease-in-out;
+      }
     }
   }
 }

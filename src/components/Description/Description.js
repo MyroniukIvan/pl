@@ -5,7 +5,7 @@ export const Description = () => {
     return (
         <div className={"description"}>
 
-            <div className="description__title-above">About Company</div>
+            <div className="description__title-about">About Company</div>
             <div className="description__title">Farmzi have 35 years of experience and know smart way to grow and design
                 your beautiful garden.
             </div>

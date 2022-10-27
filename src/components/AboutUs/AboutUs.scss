@@ -1,10 +1,10 @@
 .aboutUs {
-  color: white;
+  color: rgba(255, 255, 255, 0.78);
   position: relative;
   height: 415px;
   width: 100%;
-  background: #6e6e6e;
-  opacity: 69%;
+
+
   &__border {
     width: 100%;
     border-top: white 2px solid;
@@ -29,9 +29,15 @@
         content: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png");
         color: white;
       }
+      &:after {
+        &:before {
+          content: 'Call To Action';
+          position: relative;
+          border-top: white 1px solid;
+        }
+      }
     }
     &-text {
-
       display: flex;
       justify-content: center;
       font-family: 'Playfair Display', serif;
