@@ -1,0 +1,29 @@
+@import "src/style/variables.scss";
+
+.app {
+  &__header {
+
+    background-color: $dark;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    &-text {
+      margin-top: 7px;
+      display: flex;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 32px;
+      color: #FFFFFF;
+      padding-left: 83px;
+      padding-top: 18px;
+    }
+    &-item {
+      margin: 0 auto;
+      display: flex;
+      text-decoration: none;
+      align-items: center;
+      color: wheat;
+      position: relative;
+    }
+  }
+}
