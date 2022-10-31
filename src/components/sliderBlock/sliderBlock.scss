@@ -14,7 +14,11 @@
     margin: 0 auto;
     flex-direction: row;
     gap: 50px;
-
+    &-title {
+      padding-bottom: 15px;
+      text-align: left;
+      align-items: center;
+    }
     &-header {
       position: relative;
       padding: 20px;
@@ -39,9 +43,10 @@
       font-family: 'Playfair Display', serif;
       font-style: normal;
       font-weight: 700;
-      font-size: 48px;
+      font-size: 42px;
       line-height: 58px;
-      width: 400px;
+      max-width: 400px;
+      text-wrap: normal;
     }
   }
 
@@ -51,7 +56,6 @@
     align-items: center;
   }
 }
-#quote {
-  width: 25px;
-  height: 25px;
+.fa-regular {
+  margin-left: 10px;
 }

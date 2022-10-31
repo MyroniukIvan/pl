@@ -11,6 +11,7 @@ export const SliderBlock = () => {
                     <div className="aboutUs__items-title">
                         <div className="aboutUs__items-header">
                             Nasze produkty
+                            <i className="fa-regular fa-hand-point-right"></i>
                         </div>
                         <div className="aboutUs__items-text">
                             Zobacz co produkujemy i zadzwoń do nas już teraz!
@@ -21,7 +22,6 @@ export const SliderBlock = () => {
                     </div>
                 </div>
             </div>
-        </>
-    );
+        </>);
 };
 

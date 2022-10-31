@@ -1,6 +1,7 @@
 import React from 'react';
 import product from '../../assets/product.jpg';
-import productSecondary from '../../assets/productSecondary.jpg';
+import productSecond from '../../assets/productSecond.jpg';
+import productThird from '../../assets/productThird.jpg';
 import "./Slider.scss";
 
 export const Slider = () => {
@@ -25,15 +26,15 @@ export const Slider = () => {
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval="2000">
-                            <img src={productSecondary}
+                            <img src={productSecond}
                                  className="d-block mx-auto w-50 h-100" alt="..."/>
                             <div className="carousel-caption d-none d-md-block">
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://superagronom.com/uploads/all/21/6a/1a/216a1ac65d15fd1fd6aa3b6245093777.jpg"
-                                className="d-block mx-auto w-50 h-50" alt="..."/>
+                                src={productThird}
+                                className="d-block mx-auto w-50 h-25" alt="..."/>
                             <div className="carousel-caption d-none d-md-block">
                             </div>
                         </div>
