@@ -1,0 +1,55 @@
+@import "src/style/variables.scss";
+
+.contactUs {
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background: #177165;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+
+
+    &-item {
+      line-height: 90px
+    }
+
+    &-text {
+      height: 100%;
+      background: #23786D;
+    }
+  }
+
+  & .item {
+    align-items: center;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+ul {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  display: block;
+}
+.text {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 52px;
+}

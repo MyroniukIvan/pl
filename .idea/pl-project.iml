@@ -10,5 +10,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="ldbtn" level="application" />
+    <orderEntry type="library" name="2ffbdb1dfc" level="application" />
   </component>
 </module>

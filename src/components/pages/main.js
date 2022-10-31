@@ -1,24 +1,20 @@
 import React from 'react';
-import {Menu} from "../Menu/Menu";
-import AboutUs from "../AboutUs";
 import {Container} from "@mui/material";
 import './main.scss'
-import ContactUs from "../ContactUs";
-import Description from "../Description";
-import Additional from "../Additional";
+import Contacts from "../Contacts";
+import CallUs from "../CallUs";
+import AboutUs from "../AboutUs";
+import {SliderBlock} from "../sliderBlock/sliderBlock";
 
 const Main = () => {
-    return (
-        <div className={"container"}>
+    return (<div className={"container"}>
             <Container maxWidth="sm">
-                <Menu/>
             </Container>
-            <Description/>
             <AboutUs/>
-            <Additional/>
-            <ContactUs/>
-        </div>
-    );
+            <SliderBlock/>
+            <CallUs/>
+            <Contacts/>
+        </div>);
 };
 
 export default Main;

@@ -2,7 +2,6 @@
 
 .app {
   &__header {
-
     background-color: $dark;
     height: 80px;
     display: flex;
@@ -17,14 +16,16 @@
       padding-left: 83px;
       padding-top: 18px;
     }
+
     &-item {
       margin: 0 auto;
       display: flex;
       text-decoration: none;
       align-items: center;
-      color: wheat;
+      color: #ffffff;
       position: relative;
       &:hover {
+        color: rgba(155, 93, 0, 0.66);
         border-bottom: 4px solid #FFFFFF;
         transition: .1s ease-in-out;
       }
