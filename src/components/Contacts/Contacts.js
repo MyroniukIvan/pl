@@ -1,13 +1,10 @@
 import React from 'react';
 import "./Contacts.scss";
-import license from '../../assets/license.pdf'
 
 export const Contacts = () => {
     return (
-        <div id={'contactUs'} className={'contactUs'}>
+        <div id={"contactUs"} className={"contactUs"}>
             <ul className="contactUs__list">Informacja<br/>
-                <a href={license} rel="noreferrer" target="_blank" className={"contactUs__list-item text"}>Licencja
-                </a>
                 <a className={"contactUs__list-item text"} href="mailto: przemek.lyko@interia.pl">e-mail</a>
             </ul>
             <ul className="contactUs__list">Adres zamieszkania<br/>

@@ -1,12 +1,16 @@
 .carousel {
   max-width: 640px;
-  max-height: 300px;
   margin-bottom: 10px;
    &button {
      color: white;
    }
   &-item {
-    max-width: 640px;
+    width: 640px;
     max-height: 300px;
+    img {
+      width: 640px;
+      max-height: 300px;
+      object-fit: cover;
+    }
   }
 }

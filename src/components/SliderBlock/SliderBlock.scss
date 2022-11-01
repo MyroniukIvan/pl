@@ -1,6 +1,5 @@
 .aboutUs {
   margin-top: 10px;
-  margin-bottom: 10px;
   padding-top: 20px;
   background-image: url("https://web.punchway.org/wp-content/themes/punchweb/plugins/LayerSlider/sampleslider/icemag-sliders/3.jpg");
   color: rgba(255, 255, 255, 0.78);
@@ -14,11 +13,24 @@
     margin: 0 auto;
     flex-direction: row;
     gap: 50px;
+
+    &-list {
+      letter-spacing: 1px;
+      text-space: 5px;
+      width: 350px;
+      ul {
+        list-style: square;
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+
     &-title {
       padding-bottom: 15px;
       text-align: left;
       align-items: center;
     }
+
     &-header {
       position: relative;
       padding: 20px;
@@ -43,19 +55,20 @@
       font-family: 'Playfair Display', serif;
       font-style: normal;
       font-weight: 700;
-      font-size: 42px;
+      font-size: 35px;
       line-height: 58px;
       max-width: 400px;
       text-wrap: normal;
     }
   }
 
-  &__slider{
+  &__slider {
     position: relative;
     display: flex;
     align-items: center;
   }
 }
+
 .fa-regular {
   margin-left: 10px;
 }

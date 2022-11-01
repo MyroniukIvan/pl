@@ -1,7 +1,7 @@
 import './App.scss';
 import React from "react";
 import AppHeader from "./components/AppHeader";
-import Main from "./components/pages/main";
+import Main from "./components/Pages/Main";
 
 function App() {
     return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import {Container} from "@mui/material";
-import './main.scss';
+import './Main.scss';
 import CallUs from "../CallUs";
 import AboutUs from "../AboutUs";
-import {SliderBlock} from "../sliderBlock/sliderBlock";
+import {SliderBlock} from "../SliderBlock/SliderBlock";
 import Footer from "../Footer/Footer";
 
 const Main = () => {

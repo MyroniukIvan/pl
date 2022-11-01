@@ -18,7 +18,7 @@ export const Slider = () => {
                                 aria-label="Slide 3"></button>
                     </div>
                     <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="10000">
+                        <div  className="carousel-item active" data-bs-interval="10000">
                             <img
                                 src={product}
                                 className="d-block mx-auto w-75 h-75" alt="..."/>
@@ -27,24 +27,24 @@ export const Slider = () => {
                         </div>
                         <div className="carousel-item" data-bs-interval="2000">
                             <img src={productSecond}
-                                 className="d-block mx-auto w-50 h-100" alt="..."/>
+                                 className="d-block mx-auto w-75 h-100" alt="..."/>
                             <div className="carousel-caption d-none d-md-block">
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img
                                 src={productThird}
-                                className="d-block mx-auto w-50 h-25" alt="..."/>
+                                className="d-block mx-auto w-75 h-25" alt="..."/>
                             <div className="carousel-caption d-none d-md-block">
                             </div>
                         </div>
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    <button className="carousel-control-prev light" type="button" data-bs-target="#carouselExampleDark"
                             data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Previous</span>
                     </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    <button className="carousel-control-next light" type="button" data-bs-target="#carouselExampleDark"
                             data-bs-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Next</span>
