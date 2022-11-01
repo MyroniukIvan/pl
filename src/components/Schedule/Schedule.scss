@@ -1,0 +1,35 @@
+.schedule {
+  &__block {
+    height: 400px;
+    background: url("../../assets/background-photography.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &-container {
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    &-img {
+
+      width: 300px;
+      height: 200px;
+    }
+
+    &-list {
+      font-size: smaller;
+      font-weight: bolder;
+      display: flex;
+      justify-content: space-evenly;
+      &-item {
+        font-size: 15px;
+        font-weight: bolder;
+      }
+    }
+  }
+}
+li:first-child {
+  font-size: 30px;
+}
