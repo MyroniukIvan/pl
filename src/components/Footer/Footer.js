@@ -38,24 +38,23 @@ function Footer() {
                                     position">Dyrektor Handlowy</p>
                                 <div
                                     className="footer__items_info-social-telephone-telephons">
-                                    <a className='link' href="tel:+48 511 846 187">+48 511 846
-                                        187 </a>
+                                    <a className='link' href="tel:+380979857529">+380 97 985 7529 </a>
 
+
+
+                                </div>
+                                <div className="footer__items_info-social-telephone-telephons">
+                                    <a className='link' href="tel:+48511846187">+48 511 846
+                                        187 </a>
                                     <div
                                         className="footer__items_info-social-telephone-mail">
                                         <a href="mailto:przemek.lyko@interia.pl">Wyślij
                                             e-mail</a>
                                     </div>
-
                                 </div>
-                            </div>
-                            <div className="footer__items_info-social-title">
-                                Jesteśmy na portalach społecznościowych:
-                                <a className="footer__items_info-social-title-logo" href="https://www.facebook.com/przemek.lyko.90">
-                                <img className='facebook' src={facebook} alt=""/>
-                            </a>
 
                             </div>
+
 
                         </div>
                     </div>
@@ -72,6 +71,13 @@ function Footer() {
                             </li>
 
                         </ul>
+                        <div className="footer__items_info-social-title">
+                            Jesteśmy na portalach społecznościowych:
+                            <a className="footer__items_info-social-title-logo" href="https://www.facebook.com/przemek.lyko.90">
+                                <img className='facebook' src={facebook} alt=""/>
+                            </a>
+
+                        </div>
                     </div>
                 </div>
 

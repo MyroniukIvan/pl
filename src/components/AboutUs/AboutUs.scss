@@ -67,3 +67,36 @@
     }
   }
 }
+
+@media (max-width: 1398px) {
+  .description{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 1025px) {
+  .description{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .description{
+    flex-direction: column;
+    align-items: center;
+    &__title{
+      video{
+        width: 90%;
+        height: auto;
+      }
+      &-img{
+        width: 90%;
+        height: auto;
+      }
+    }
+  }
+}
+

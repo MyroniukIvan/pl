@@ -3,9 +3,10 @@ import {Container} from "@mui/material";
 import './Main.scss';
 import CallUs from "../CallUs";
 import AboutUs from "../AboutUs";
-import {SliderBlock} from "../SliderBlock/SliderBlock";
 import Footer from "../Footer/Footer";
 import Schedule from "../Schedule";
+import SwiperSlider from "../Swiper/SwiperSlider";
+import SliderBlock from "../SliderBlock";
 
 const Main = () => {
     return (<div className={"container"}>
