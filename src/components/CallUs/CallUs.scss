@@ -102,4 +102,12 @@ section {
   }
 }
 
+@media (max-width: 992px) {
+  .flex__container {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+}
+
 

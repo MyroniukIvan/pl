@@ -3,54 +3,39 @@ import product from '../../assets/product.jpg';
 import productSecond from '../../assets/productSecond.jpg';
 import productThird from '../../assets/productThird.jpg';
 import "./Slider.scss";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from "swiper";
+
+// Import Swiper styles
+import 'swiper/css';
 
 export const Slider = () => {
     return (
-        <div>
-            <div className="carousel">
-                <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div className="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
-                                className="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                    </div>
-                    <div className="carousel-inner">
-                        <div  className="carousel-item active" data-bs-interval="10000">
-                            <img
-                                src={product}
-                                className="d-block mx-auto w-75 h-75" alt="..."/>
-                            <div className="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div className="carousel-item" data-bs-interval="2000">
-                            <img src={productSecond}
-                                 className="d-block mx-auto w-75 h-100" alt="..."/>
-                            <div className="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <img
-                                src={productThird}
-                                className="d-block mx-auto w-75 h-25" alt="..."/>
-                            <div className="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                    </div>
-                    <button className="carousel-control-prev light" type="button" data-bs-target="#carouselExampleDark"
-                            data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next light" type="button" data-bs-target="#carouselExampleDark"
-                            data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    )
+        <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            slidesPerView={1}
+            navigation={true}
+            autoplay={{
+                delay: 1500,
+                disableOnInteraction: false,
+            }}
+            pagination={{
+                clickable: true,
+            }}
+            modules={[Autoplay, Pagination,Navigation]}
+            className="mySwiper"
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+        >
+
+            <SwiperSlide><img className='mySlide' src={product} alt=""/></SwiperSlide>
+            <SwiperSlide><img className='mySlide' src={productSecond} alt=""/></SwiperSlide>
+            <SwiperSlide><img className='mySlide' src={productThird} alt=""/></SwiperSlide>
+        </Swiper>
+    );
 };

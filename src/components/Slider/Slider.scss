@@ -11,12 +11,21 @@
      color: white;
    }
   &-item {
-    width: 640px;
-    max-height: 300px;
+    min-width: 640px;
+    min-height: 300px;
     img {
       width: 640px;
       max-height: 300px;
       object-fit: cover;
     }
+  }
+}
+.mySlide{
+  height: 300px !important;
+}
+
+@media (max-width: 426px) {
+  .mySlide{
+    height: 300px !important;
   }
 }
