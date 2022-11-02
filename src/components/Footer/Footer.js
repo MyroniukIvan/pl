@@ -6,7 +6,7 @@ import './Footer.scss';
 function Footer() {
     return (
 
-        <div className="footer">
+        <div id={'footer'} className="footer">
             <div className="footer__wrapper">
                 <div className="footer__wrapper-logo">
                     <img src={logo} alt=""/>
@@ -50,8 +50,9 @@ function Footer() {
                                 </div>
                             </div>
                             <div className="footer__items_info-social-title">
-                                Jesteśmy na portalach społecznościowych:<a className="footer__items_info-social-title-logo" href="#">
-                                <img className='facebook' src={facebook} alt="" />
+                                Jesteśmy na portalach społecznościowych:
+                                <a className="footer__items_info-social-title-logo" href="https://www.facebook.com/przemek.lyko.90">
+                                <img className='facebook' src={facebook} alt=""/>
                             </a>
 
                             </div>

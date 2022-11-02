@@ -1,6 +1,10 @@
 .aboutUs {
   margin-top: 10px;
-  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 401px;
   background-image: url("https://web.punchway.org/wp-content/themes/punchweb/plugins/LayerSlider/sampleslider/icemag-sliders/3.jpg");
   color: rgba(255, 255, 255, 0.78);
   position: relative;
@@ -9,10 +13,7 @@
   &__items {
     display: flex;
     justify-content: center;
-    padding: 15px;
-    margin: 0 auto;
     flex-direction: row;
-    gap: 50px;
 
     &-list {
       letter-spacing: 1px;
@@ -22,6 +23,9 @@
         list-style: square;
         margin-left: 0;
         padding-left: 0;
+        li {
+          font-size: 25px;
+        }
       }
     }
 
@@ -39,31 +43,9 @@
       font-weight: 400;
       font-size: 17px;
       line-height: 29px;
-
-      &:after {
-        &:before {
-          content: 'Call To Action';
-          position: relative;
-          border-top: white 1px solid;
-        }
-      }
-    }
-
-    &-text {
-      display: flex;
-      justify-content: center;
-      font-family: 'Playfair Display', serif;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 35px;
-      line-height: 58px;
-      max-width: 400px;
-      text-wrap: normal;
     }
   }
-
   &__slider {
-    position: relative;
     display: flex;
     align-items: center;
   }

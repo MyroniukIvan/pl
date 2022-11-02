@@ -22,9 +22,7 @@ export const SliderBlock = () => {
                             <li>Uslugi transportowe</li>
                         </ul>
                     </div>
-                    <div className="aboutUs__items-text">
-                        Zobacz co produkujemy i zadzwoń do nas już teraz!
-                    </div>
+
                 </div>
                 <div className={"aboutUs__slider"}>
                     <Slider/>

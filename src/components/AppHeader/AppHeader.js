@@ -8,8 +8,7 @@ export const AppHeader = () => {
                 KREDOPOL
             </div>
             <div className="app__header-menu">
-                <a href={'#contactUs'} className={"app__header-item"}>Skontaktuj się z nami</a>
-                <a href={'#callUs'} className={"app__header-item"}>Zadzwoń do nas</a>
+                <a href={'#footer'} className={"app__header-item"}>Skontaktuj się z nami</a>
             </div>
         </div>
     );
