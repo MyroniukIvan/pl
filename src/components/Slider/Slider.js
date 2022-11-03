@@ -2,6 +2,9 @@ import React from 'react';
 import product from '../../assets/product.jpg';
 import productSecond from '../../assets/productSecond.jpg';
 import productThird from '../../assets/productThird.jpg';
+import autobus from '../../assets/autobus.jpg';
+import autobus1 from '../../assets/autobus1.jpg';
+
 import "./Slider.scss";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -36,6 +39,8 @@ export const Slider = () => {
             <SwiperSlide><img className='mySlide' src={product} alt=""/></SwiperSlide>
             <SwiperSlide><img className='mySlide' src={productSecond} alt=""/></SwiperSlide>
             <SwiperSlide><img className='mySlide' src={productThird} alt=""/></SwiperSlide>
+            <SwiperSlide><img className='mySlide' src={autobus} alt=""/></SwiperSlide>
+            <SwiperSlide><img className='mySlide' src={autobus1} alt=""/></SwiperSlide>
         </Swiper>
     );
 };

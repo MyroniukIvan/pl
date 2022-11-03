@@ -8,7 +8,7 @@ export const AboutUs = () => {
             <div className="description__title-about">O firmie</div>
             <div className="description__title">
                         Firma   <br/>
-                <video loop={true} width="400" height="400" autoPlay={true} muted={true}>
+                <video loop={true} playsInline={true} width="400" height="400" autoPlay={true} muted={true}>
                     <source src={video} type="video/mp4"/>
                 </video>
             </div>

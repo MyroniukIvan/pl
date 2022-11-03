@@ -43,9 +43,8 @@ export const CallUs = () => {
 
                             <p className={"call text__box-text"}>
                                 <i className="fa-solid fa-phone"/>
-                                <a className={'call-text'} href="tel:+48 511 846 187 / tel: +380 97 985 7529">Nasze
-                                    Usługi <br/> +48 511 846 187 /
-                                    +380 97 985 7529</a>
+                                <a className={'call-text'} href="tel:+48 511 846 187">Nasze
+                                    Usługi <br/> +48 511 846 187</a>
                             </p>
                         </div>
                     </div>
