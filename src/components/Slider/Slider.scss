@@ -1,31 +1,21 @@
-.carousel {
-  .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-  }
 
-  .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-  }
-  max-width: 640px;
-   &button {
-     color: white;
-   }
-  &-item {
-    min-width: 640px;
-    min-height: 300px;
-    img {
-      width: 640px;
-      max-height: 300px;
-      object-fit: cover;
-    }
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: white;
+}
+.mySwiper {
+  &::after, ::before, :before, :after {
+    color: white;
   }
 }
-.mySlide{
+
+
+.mySlide {
+  font-family: initial !important;
   height: 300px !important;
 }
 
 @media (max-width: 426px) {
-  .mySlide{
+  .mySlide {
     height: 300px !important;
   }
 }

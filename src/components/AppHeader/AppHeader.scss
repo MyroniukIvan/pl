@@ -6,6 +6,12 @@
     height: 80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    &-img {
+      padding-bottom: 5px;
+      object-fit: cover;
+    }
 
     &-menu {
       display: flex;
@@ -31,7 +37,6 @@
       align-items: center;
       color: #ffffff;
       position: relative;
-
       &:hover {
         color: rgba(155, 93, 0, 0.66);
         border-bottom: 4px solid rgba(187, 112, 1, 0.66);;
@@ -42,9 +47,21 @@
 }
 
 @media (max-width: 768px) {
-  .app{
-    &__header{
-      &-text{
+  .app {
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-img {
+        margin-left: 10px;
+        padding-right: 25px;
+        width: 100%;
+        height: 90%;
+        object-fit: contain;
+      }
+
+      &-text {
         margin: 0;
         padding: 0;
       }
