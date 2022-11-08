@@ -10,7 +10,8 @@ export const SliderBlock = () => {
                 <div className="aboutUs__items-title">
                     <div className="aboutUs__items-header">
                         Nasze produkty
-                        <i className="fa-regular fa-hand-point-right"></i>
+                        <div className="finger"><i className="fa-regular fa-hand-point-right"></i></div>
+
                     </div>
                 </div>
                 <div className="aboutUs__items-list">

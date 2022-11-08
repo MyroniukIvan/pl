@@ -89,7 +89,15 @@
     flex-direction: column;
     align-items: center;
 
+    &__subtitle {
+      &-text {
+        margin: 0;
+      }
+    }
+
     &__title {
+      margin: 0;
+
       video {
         width: 80%;
 
@@ -101,6 +109,11 @@
       }
     }
   }
+  .aboutUs {
+    flex-direction: column;
+    overflow-x: hidden;
+
+  }
 }
 
 @media (max-width: 768px) {
@@ -108,10 +121,13 @@
   .block {
     max-width: 300px;
   }
-
+  .description {
     &__title {
+      margin: 0;
+
       video {
         width: 80%;
+
       }
 
       &-img {
@@ -119,6 +135,12 @@
         height: 90%;
       }
     }
+  }
+  .aboutUs {
+    flex-direction: column;
+
+  }
+
 
 }
 
@@ -134,7 +156,15 @@
     .aboutUs {
       display: flex;
 
+      &__items {
+        &-header {
+          .fa-regular {
+            transform: rotate(90deg);
+          }
+        }
+      }
     }
-  }}
+  }
+}
 
 

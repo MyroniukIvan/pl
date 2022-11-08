@@ -43,6 +43,7 @@
     &-header {
       font-family: 'Roboto', sans-serif;
       font-style: normal;
+      display: flex;
 
     }
   }
@@ -104,6 +105,35 @@
   }
 }
 
+@media (max-width: 700px) {
+  .aboutUs {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+
+    &__items {
+      padding-top: 15px;
+      list-style: inherit;
+      max-width: 90%;
+      &-header{
+        .finger{
+          transform: rotate(90deg);
+        }
+      }
+      &-list {
+        font-size: 27px;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    &__slider {
+      padding: 15px 0 15px 0;
+      max-width: 330px;
+    }
+  }
+}
+
 @media (max-width: 425px) {
   .aboutUs {
     font-size: 25px;
@@ -131,7 +161,6 @@
 
     &__slider {
       padding-bottom: 15px;
-      padding-left: 15px;
       width: 280px;
       height: auto;
     }
