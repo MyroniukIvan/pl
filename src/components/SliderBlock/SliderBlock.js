@@ -1,6 +1,5 @@
 import React from 'react';
 import "./SliderBlock.scss";
-import '../../style/button.scss';
 
 import {Slider} from "../Slider/Slider";
 
@@ -13,20 +12,19 @@ export const SliderBlock = () => {
                         Nasze produkty
                         <i className="fa-regular fa-hand-point-right"></i>
                     </div>
-                    <div className="aboutUs__items-list">
-                        <ul>
-                            <li>Kreda techniczna
-                                Wykorzystywana w wielu Galeziach przemyslu
-                            </li>
-                            <li>Wapno ekologiczne</li>
-                            <li>Uslugi transportowe</li>
-                        </ul>
-                    </div>
-
                 </div>
-                <div className={"aboutUs__slider"}>
-                    <Slider/>
+                <div className="aboutUs__items-list">
+                    <ul>
+                        <li>Kreda techniczna
+                            Wykorzystywana w wielu Galeziach przemyslu
+                        </li>
+                        <li>Wapno ekologiczne</li>
+                        <li>Nawozy mineralne</li>
+                    </ul>
                 </div>
+            </div>
+            <div id={"cardSlider"} className={"aboutUs__slider"}>
+                <Slider/>
             </div>
         </div>
     </>);

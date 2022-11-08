@@ -7,7 +7,7 @@ export const CallUs = () => {
         for (let i = 0; i < reveals.length; i++) {
             let windowHeight = window.innerHeight;
             let elementTop = reveals[i].getBoundingClientRect().top;
-            let elementVisible = 150;
+            let elementVisible = 120;
 
             if (elementTop < windowHeight - elementVisible) {
                 reveals[i].classList.add("active");
@@ -30,10 +30,6 @@ export const CallUs = () => {
                     <div className="flex__container">
                         <div className="text__box">
                             <ul className={"text__box-text"}>
-                                <li>Najlepsze ceny</li>
-                                <li>Komfort</li>
-                                <li>Internet</li>
-                                <li>Gniazda</li>
                                 <li>Rezerwacja biletów
                                     <i className="fa-regular fa-hand-point-right"/>
                                 </li>

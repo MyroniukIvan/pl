@@ -10,12 +10,23 @@
 
 
 .mySlide {
+  cursor: grab;
   font-family: initial !important;
   height: 300px !important;
 }
 
 @media (max-width: 426px) {
+
   .mySlide {
     height: 300px !important;
+  }
+  #mySlide {
+    width: 300px;
+
+  }
+}
+@media (max-width: 992px) {
+  #mySlide {
+    width: 320px;
   }
 }

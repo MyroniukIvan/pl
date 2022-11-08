@@ -2,6 +2,8 @@
 
 .app {
   &__header {
+    max-width: 1300px;
+    margin: 0 auto;
     background-color: $dark;
     height: 80px;
     display: flex;
@@ -38,8 +40,8 @@
       color: #ffffff;
       position: relative;
       &:hover {
-        color: rgba(155, 93, 0, 0.66);
-        border-bottom: 4px solid rgba(187, 112, 1, 0.66);;
+        color: rgb(1, 134, 116);
+        border-bottom: 4px solid rgba(9, 77, 67, 0.7);
         transition: .1s ease-in-out;
       }
     }

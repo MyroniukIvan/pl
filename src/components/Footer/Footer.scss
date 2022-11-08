@@ -11,8 +11,6 @@
   &__wrapper {
     display: flex;
     flex-direction: column;
-
-
     background: #1e2e36;
     color: #fff;
 
@@ -147,6 +145,7 @@
       }
 
       &-social {
+        align-items: center;
         display: flex;
         flex-direction: column;
 
@@ -168,7 +167,6 @@
           color: #ffffff;
           margin-top: 30px;
           padding-left: 35px;
-
           a {
             img {
               transform: scale(0.8);
@@ -294,6 +292,10 @@
     border: none;
   }
 }
+img.facebook {
+  text-align: center;
+
+}
 
 @media (max-width: 1025px) {
   .footer{
@@ -312,6 +314,16 @@
     }
     &__map{
       height: 400px;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .footer {
+    &__wrapper {
+      &-logo {
+
+        object-fit: cover;
+      }
     }
   }
 }

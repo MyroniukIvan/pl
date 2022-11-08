@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './../../assets/kredopol-logo.png';
+import logo from './../../assets/logo.svg';
 import facebook from '../../assets/Facebook_footer.svg'
 import './Footer.scss';
 
@@ -18,12 +18,8 @@ function Footer() {
                                 <a href="#">Dom</a>
                             </li>
                             <li>
-                                <a href="#">Skontaktuj się z nami</a>
+                                <a href="tel:+48511846187">Skontaktuj się z nami</a>
                             </li>
-                            <li>
-                                <a href="#">Zadzwoń do nas</a>
-                            </li>
-
                         </ul>
                     </div>
 
@@ -39,7 +35,6 @@ function Footer() {
                                 <div
                                     className="footer__items_info-social-telephone-telephons">
                                     <a className='link' href="tel:+380979857529">+380 97 985 7529 </a>
-
 
 
                                 </div>
@@ -73,8 +68,10 @@ function Footer() {
                         </ul>
                         <div className="footer__items_info-social-title">
                             Jesteśmy na portalach społecznościowych:
-                            <a className="footer__items_info-social-title-logo" href="https://www.facebook.com/przemek.lyko.90">
-                                <img className='facebook' src={facebook} alt=""/>
+
+                            <a className="footer__items_info-social-title-logo"
+                               href="https://www.facebook.com/przemek.lyko.90">
+                                <div><img className='facebook' src={facebook} alt=""/></div>
                             </a>
 
                         </div>

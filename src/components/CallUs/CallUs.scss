@@ -2,13 +2,13 @@
 
 section {
   margin-top: 10px;
-  background: rgba(255, 255, 255, 0.7);
-  font-family: 'Playfair Display', serif;
+  background: rgb(23, 113, 101);
+  font-family: "JetBrains Mono", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
-  color: #000000;
+  color: #c2c2c2;
   text-align: left;
   display: flex;
   justify-content: center;
@@ -19,21 +19,23 @@ section {
     justify-content: center;
 
     &-text {
+      display: flex;
+      list-style: none;
       align-items: center;
-      padding: 20px;
+      padding: 25px;
       text-align: left;
-      color: #000000;
+      color: #c2c2c2;
       font-size: 20px;
       text-transform: uppercase;
     }
   }
 
   &:nth-child(2) {
-    color: #000000;
+    color: #c2c2c2;
   }
 
   &:nth-child(4) {
-    color: #000000;
+    color: #c2c2c2;
 
   }
 
@@ -43,17 +45,30 @@ section {
     justify-content: center;
     font-size: 17px;
     text-align: center;
-    background: rgba(23, 113, 101, 0.7);
+    background: rgba(9, 77, 67, 0.7);
     height: 70px;
+
+    &:hover {
+      color: #23786D;
+      background: white;
+    }
+
     &-text {
-      color: #000000;
+      padding-left: 5px;
+      color: #c2c2c2;
       display: flex;
       text-decoration: none;
+
+      &:hover {
+        color: #23786D;
+
+      }
     }
   }
 
 
   .reveal {
+    background: rgba(9, 77, 67, 0.7);
     position: relative;
     transform: translateY(175px);
     transition: 1s all ease;
@@ -80,7 +95,7 @@ section {
         content: 'Wezwanie do działania';
         position: relative;
         font-weight: lighter;
-        border-top: #062c00 2px solid;
+        border-top: rgba(9, 77, 67, 0.7) 2px solid;
       }
     }
   }
@@ -108,6 +123,16 @@ section {
     gap: 5px;
     flex-direction: column;
   }
+  section .call {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  section .text__box {
+    padding-bottom: 15px;
+  }
+
 }
 
 

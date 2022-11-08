@@ -1,6 +1,6 @@
 import React from 'react';
 import "./AppHeader.scss"
-import logo from  './../../assets/logo-company.svg';
+import logo from  './../../assets/logo.svg';
 export const AppHeader = () => {
     return (
         <div className="app__header">
