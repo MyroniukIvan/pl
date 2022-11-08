@@ -29,14 +29,6 @@ export const CallUs = () => {
                 <div className="text__container">
                     <div className="flex__container">
                         <div className="text__box">
-                            <ul className={"text__box-text"}>
-                                <li>Rezerwacja biletów
-                                    <i className="fa-regular fa-hand-point-right"/>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="text__box">
-
                             <p className={"call text__box-text"}>
                                 <i className="fa-solid fa-phone"/>
                                 <a className={'call-text'} href="tel:+48 511 846 187">Nasze

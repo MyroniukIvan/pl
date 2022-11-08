@@ -8,7 +8,6 @@ export const AboutUs = () => {
 
             <div className="description__title">
                         Firma   <br/>
-                <div><span>P2P QUALITY</span></div>
                 <video loop={true} playsInline={true} width="400" height="400" autoPlay={true} muted={true}>
                     <source src={video} type="video/mp4"/>
                 </video>

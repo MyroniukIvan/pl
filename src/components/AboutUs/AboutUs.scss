@@ -100,29 +100,14 @@
         height: 100%;
       }
     }
-
-    &__subtitle {
-      font-size: 15px;
-      &-text {
-        font-size: 12px;
-      }
-    }
   }
 }
 
 @media (max-width: 768px) {
-  .description {
-    &__subtitle {
-      font-size: 12px;
 
-      &-text {
-        font-size: 10px;
-      }
-
-      &-block {
-        font-size: 12px;
-      }
-    }
+  .block {
+    max-width: 300px;
+  }
 
     &__title {
       video {
@@ -134,7 +119,7 @@
         height: 90%;
       }
     }
-  }
+
 }
 
 
@@ -145,16 +130,11 @@
         font-size: 20px;
       }
     }
-    &__subtitle {
-      font-size: 12px;
-      &-text {
-        font-size: 10px;
-      }
-    }
-  }
+
     .aboutUs {
       display: flex;
+
     }
-  }
+  }}
 
 
