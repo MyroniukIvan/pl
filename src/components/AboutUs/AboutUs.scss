@@ -88,8 +88,9 @@
   .description {
     flex-direction: column;
     align-items: center;
-
     &__subtitle {
+      font-weight: 900;
+      font-style: italic;
       &-text {
         margin: 0;
       }
@@ -110,9 +111,17 @@
     }
   }
   .aboutUs {
+    background-position: 100% 100%;
+    font-style: italic;
+    text-align: center;
     flex-direction: column;
     overflow-x: hidden;
+  &__items {
+    &-list ul {
+      text-align: left;
 
+    }
+  }
   }
 }
 
@@ -123,6 +132,7 @@
   }
   .description {
     &__title {
+
       margin: 0;
 
       video {
@@ -148,6 +158,7 @@
 @media (max-width: 375px) {
   .description {
     &__title {
+
       &span {
         font-size: 20px;
       }
