@@ -34,12 +34,12 @@ function Footer() {
                                     position">Dyrektor Handlowy</p>
                                 <div
                                     className="footer__items_info-social-telephone-telephons">
-                                    <a className='link' href="tel:+380979857529">+380 97 985 7529 </a>
+                                    <a className='link' href="tel:00 483 431 77861">004 834 317 7861 </a>
 
 
                                 </div>
                                 <div className="footer__items_info-social-telephone-telephons">
-                                    <a className='link' href="tel:+343 511 846 187">+343 511 846 187 </a>
+                                    <a className='link' href="tel:+343 511 846 187">343 511 846 187 </a>
                                     <div
                                         className="footer__items_info-social-telephone-mail">
                                         <a href="mailto:przemek.lyko@interia.pl">Wyślij

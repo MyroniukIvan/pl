@@ -3,12 +3,12 @@ import './AboutUs.scss';
 import video from "../../assets/KREDOPOL.mp4?autoplay=1";
 
 export const AboutUs = () => {
-    return (
-        <div className={"description"}>
+    return (<div className={"description"}>
 
             <div className="description__title">
-                        Firma   <br/>
-                <video className={'video'}   loop={true} playsInline={true} width="400" height="400" autoPlay={true} muted={true}>
+                Firma <br/>
+                <video className={'video'} loop={true} playsInline={true} width="400" height="400" autoPlay={true}
+                       muted={true}>
                     <source src={video} type="video/mp4"/>
                 </video>
             </div>
@@ -17,16 +17,16 @@ export const AboutUs = () => {
                  alt="title picture"/>
             <div className="description__subtitle-block block">
                 <div className="description__subtitle">Kim jesteśmy?</div>
-                <div className="description__subtitle-text">zaopatruje producentów rolnych w niektóre rodzaje nawozów
-                    mineralnych, w tym również własnej produkcji
+                <div className="description__subtitle-text">W miejscu co jest o firmie
+                    Zakład powstał w 1974 roku
+                    z myślą by wspierać rolnictwo
                 </div>
                 <div className="description__subtitle">Misja i wizja</div>
-                <div className="description__subtitle-text">Na glebach kwaśnych wskazane jest stosowanie kredy
-                    granulowanej jako silnie skoncentrowanego nawozu wapniowego i długo działającego melioranta w celu
-                    optymalizacji systemu odżywiania roślin i właściwości gleby.
+                <div className="description__subtitle-text">
+                    Firma powstała z misja pomocy rolnikom
+                    w uzyskaniu lepszych plonów
                 </div>
             </div>
-        </div>
-    );
+        </div>);
 };
 
