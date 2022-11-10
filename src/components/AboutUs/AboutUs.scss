@@ -5,6 +5,7 @@
 
 
   &__title {
+
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
@@ -21,6 +22,7 @@
     }
 
     &-img {
+
       object-fit: cover;
       position: relative;
       width: 400px;
@@ -75,7 +77,9 @@
     }
   }
 }
-
+.video {
+  box-shadow: 6px 10px teal;
+}
 @media (max-width: 1398px) {
   .description {
     flex-direction: column;
