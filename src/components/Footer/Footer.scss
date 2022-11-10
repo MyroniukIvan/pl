@@ -167,6 +167,7 @@
           color: #ffffff;
           margin-top: 30px;
           padding-left: 35px;
+
           a {
             img {
               transform: scale(0.8);
@@ -184,9 +185,11 @@
           display: flex;
           flex-direction: column;
           margin-top: 6px;
+
           .name_director {
             font-style: italic;
           }
+
           a {
             color: #fff;
             font-style: normal;
@@ -292,31 +295,37 @@
     border: none;
   }
 }
+
 img.facebook {
   text-align: center;
 
 }
 
 @media (max-width: 1025px) {
-  .footer{
+  .footer {
     flex-direction: column-reverse;
-    &__wrapper{
-      &-logo{
-        margin: 20px 0 0 0;
+
+    &__wrapper {
+      &-logo {
+        margin: 0 auto;
       }
     }
-    &__items{
+
+    &__items {
       flex-direction: column;
       align-items: center;
-      &_info{
-        margin: 30px 0 30px 0;
+
+      &_info {
+        margin: 14px 0 14px 0;
       }
     }
-    &__map{
+
+    &__map {
       height: 400px;
     }
   }
 }
+
 @media (max-width: 375px) {
   .footer {
     &__wrapper {
