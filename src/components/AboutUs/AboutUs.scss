@@ -85,6 +85,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .video {
+    box-shadow: none;
+  }
 }
 
 
@@ -101,14 +104,15 @@
     }
 
     &__title {
+
       margin: 0;
 
       video {
         width: 80%;
-
       }
 
       &-img {
+
         width: 90%;
         height: 100%;
       }
