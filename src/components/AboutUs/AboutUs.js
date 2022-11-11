@@ -17,7 +17,7 @@ export const AboutUs = () => {
                  alt="title picture"/>
             <div className="description__subtitle-block block">
                 <div className="description__subtitle">Kim jesteśmy?</div>
-                <div className="description__subtitle-text">W miejscu co jest o firmie
+                <div className="description__subtitle-text">
                     Zakład powstał w 1974 roku
                     z myślą by wspierać rolnictwo
                 </div>
