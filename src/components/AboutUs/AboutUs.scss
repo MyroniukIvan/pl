@@ -1,7 +1,8 @@
 .description {
+  background: #000000;
   margin-top: 10px;
   display: flex;
-  background: #ffffff;
+  opacity: 90%;
 
 
   &__title {
@@ -49,14 +50,14 @@
     padding: 5px;
     border-radius: 100% 50%;
     background: rgb(0,0,6);
-    background: linear-gradient(90deg, rgba(0,0,6,1) 0%, rgba(23,113,101,1) 35%, rgba(241,255,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,6,1) 0%, rgb(113, 23, 36) 35%, rgba(241,255,0,1) 100%);
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 35px;
-    color: #e1e1e1;
+    color: #f51515;
 
 
     &-text {
@@ -70,7 +71,7 @@
       font-size: 20px;
       letter-spacing: 0.5px;
       line-height: 30px;
-      color: #44c697;
+      color: #a90000;
     }
 
     &-block {

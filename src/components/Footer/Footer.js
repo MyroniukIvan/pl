@@ -34,9 +34,11 @@ function Footer() {
                                     position">Dyrektor Handlowy</p>
                                 <div
                                     className="footer__items_info-social-telephone-telephons">
+                                    <a className='link' href="tel:0048 511 846 187">0048 511 846 187</a>
+                                </div>
+                                <div
+                                    className="footer__items_info-social-telephone-telephons">
                                     <a className='link' href="tel:0048 34 3177 861">0048 34 3177 861</a>
-
-
                                 </div>
                                 <div className="footer__items_info-social-telephone-telephons">
                                     <a className='link' href="tel:0038 097 9857 529">0038 097 9857 529 </a>
