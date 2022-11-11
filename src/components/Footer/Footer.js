@@ -18,7 +18,7 @@ function Footer() {
                                 <a href="#">Dom</a>
                             </li>
                             <li>
-                                <a href="tel:+343 511 846 187">Skontaktuj się z nami</a>
+                                <a href="tel:+tel: 0048511846187">Skontaktuj się z nami</a>
                             </li>
                         </ul>
                     </div>
@@ -34,12 +34,12 @@ function Footer() {
                                     position">Dyrektor Handlowy</p>
                                 <div
                                     className="footer__items_info-social-telephone-telephons">
-                                    <a className='link' href="tel:00 483 431 77861">004 834 317 7861 </a>
+                                    <a className='link' href="tel:0048 34 3177 861">0048 34 3177 861</a>
 
 
                                 </div>
                                 <div className="footer__items_info-social-telephone-telephons">
-                                    <a className='link' href="tel:+343 511 846 187">343 511 846 187 </a>
+                                    <a className='link' href="tel:0038 097 9857 529">0038 097 9857 529 </a>
                                     <div
                                         className="footer__items_info-social-telephone-mail">
                                         <a href="mailto:przemek.lyko@interia.pl">Wyślij
