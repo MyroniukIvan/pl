@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     opacity: 90%;
+
     &-img {
       object-fit: cover;
     }
@@ -32,17 +33,19 @@
     }
 
     &-item {
+      padding: 20px;
       margin: 0 auto;
       display: flex;
       text-decoration: none;
       align-items: center;
-      color: #ffffff;
+      color: #dadada;
       position: relative;
-
+      border-radius: 100% 50%;
+      background: rgb(0,0,6);
+      line-height: 10px;
+      background: linear-gradient(90deg, rgb(0, 6, 2) 0%, rgb(18, 52, 0) 35%, rgb(63, 169, 0) 100%);
       &:hover {
-        color: rgb(1, 134, 116);
-        border-bottom: 4px solid rgba(9, 77, 67, 0.7);
-        transition: .1s ease-in-out;
+        opacity: 90%;
       }
     }
   }
@@ -58,7 +61,7 @@
       justify-content: center;
 
       &-item {
-      font-size: 25px;
+        font-size: 25px;
       }
 
       &-img {

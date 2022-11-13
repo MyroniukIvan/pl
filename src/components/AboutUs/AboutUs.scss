@@ -1,12 +1,12 @@
 .description {
+  opacity: 70%;
   background: rgba(0, 0, 0, 0.87);
   margin-top: 10px;
   display: flex;
-  opacity: 90%;
+
 
 
   &__title {
-
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
@@ -23,6 +23,7 @@
     }
 
     &-img {
+      border-radius: 50px;
       padding-right: 15px;
       object-fit: cover;
       position: relative;
@@ -31,10 +32,11 @@
     }
 
     &-about {
+      opacity: 1;
       margin: 0;
       position: relative;
       background: #bef5b8;
-      opacity: 30%;
+
       padding: 50px;
       font-family: 'Roboto', serif;
       font-weight: 700;
@@ -47,20 +49,22 @@
   }
 
   &__subtitle {
+
     padding: 5px;
     border-radius: 100% 50%;
     background: rgb(0,0,6);
-    background: linear-gradient(90deg, rgba(0,0,6,1) 0%, rgb(113, 23, 36) 35%, rgba(241,255,0,1) 100%);
+    background: linear-gradient(90deg, rgb(0, 6, 2) 0%, rgb(18, 52, 0) 35%, rgb(63, 169, 0) 100%);
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 35px;
-    color: #f51515;
+    color: #ffffff;
 
 
     &-text {
+      opacity: 1;
       text-wrap: normal;
       margin-top: 50px;
       padding: 25px;
@@ -71,10 +75,11 @@
       font-size: 20px;
       letter-spacing: 0.5px;
       line-height: 30px;
-      color: #a90000;
+      color: #ffffff;
     }
 
     &-block {
+     opacity: 1;
       justify-content: center;
       position: relative;
       display: flex;
@@ -83,6 +88,7 @@
   }
 }
 .video {
+  opacity: 1;
   box-shadow: 6px 10px #e8ce3c;
 }
 @media (max-width: 1398px) {

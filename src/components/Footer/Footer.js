@@ -38,7 +38,7 @@ function Footer() {
                                 </div>
                                 <div
                                     className="footer__items_info-social-telephone-telephons">
-                                    <a className='link' href="tel:0048 34 3177 861">0048 34 3177 861</a>
+                                    <a className='link' href="tel:0048 34 3177 761">0048 34 3177 761</a>
                                 </div>
                                 <div className="footer__items_info-social-telephone-telephons">
                                     <a className='link' href="tel:0038 097 9857 529">0038 097 9857 529 </a>

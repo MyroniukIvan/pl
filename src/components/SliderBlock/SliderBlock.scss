@@ -48,12 +48,13 @@
     }
 
     &-header {
-      background: rgb(2,0,36);
-      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,0,0,1) 35%, rgba(246,106,0,1) 100%);
+      background: rgb(0,0,6);
+      line-height: 25px;
+      background: linear-gradient(90deg, rgb(0, 6, 2) 0%, rgb(18, 52, 0) 35%, rgb(63, 169, 0) 100%);
       font-family: 'Roboto', sans-serif;
       font-style: normal;
       display: flex;
-      color: #f51515;
+      color: #c2b8b8;
     }
   }
 
