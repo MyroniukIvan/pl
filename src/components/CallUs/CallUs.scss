@@ -2,13 +2,13 @@
 
 section {
   margin-top: 10px;
-  background: rgb(23, 113, 101);
+  background: rgba(255, 255, 255, 0.71);
   font-family: "JetBrains Mono", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
-  color: #c2c2c2;
+  color: rgb(1, 134, 116);
   text-align: left;
   display: flex;
   justify-content: center;
@@ -50,8 +50,8 @@ section {
     height: 70px;
 
     &:hover {
-      color: #23786D;
-      background: white;
+      color: rgb(175, 175, 175);
+      background: #413535;
     }
 
     &-text {
@@ -60,16 +60,13 @@ section {
       display: flex;
       text-decoration: none;
 
-      &:hover {
-        color: #23786D;
-
-      }
     }
   }
 
 
   .reveal {
-    background: rgba(9, 77, 67, 0.7);
+    padding: 15px;
+    color: rgb(1, 134, 116);
     position: relative;
     transform: translateY(175px);
     transition: 1s all ease;
@@ -92,12 +89,7 @@ section {
     &-subtitle {
       text-align: left;
 
-      &:before {
-        content: 'Wezwanie do działania';
-        position: relative;
-        font-weight: lighter;
-        border-top: rgba(9, 77, 67, 0.7) 2px solid;
-      }
+
     }
   }
 }
