@@ -11,6 +11,7 @@ const Music = () => {
                           controlsList={'play'}
                           autoPlay={true}
                           controls
+                          volume={.3}
         />
     </div>);
 };
