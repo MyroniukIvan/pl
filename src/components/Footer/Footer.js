@@ -40,6 +40,10 @@ function Footer() {
                                     className="footer__items_info-social-telephone-telephons">
                                     <a className='link' href="tel:0048 34 3177 761">0048 34 3177 761</a>
                                 </div>
+                                <div
+                                    className="footer__items_info-social-telephone-telephons">
+                                    <a className='link' href="tel:0048 518 689 850">0048 518 689 850</a>
+                                </div>
                                 <div className="footer__items_info-social-telephone-telephons">
                                     <a className='link' href="tel:0038 097 9857 529">0038 097 9857 529 </a>
                                     <div
